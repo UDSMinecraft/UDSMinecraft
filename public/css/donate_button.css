@@ -1,0 +1,14 @@
+a#donate {
+    font-style: italic;
+    font-weight: bold;
+    background-color: #EBA729;
+    border-radius: 30px;
+    padding: .4em 1.1em;
+    font-size: 1.4em;
+    color: #8C1FCC;
+    border: 2px #EBA729 outset;
+}
+a#donate:hover {
+    background-color: #F6D290;
+    border: 2px #EBA729 inset;
+}

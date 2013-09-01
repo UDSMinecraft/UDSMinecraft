@@ -1,0 +1,10 @@
+footer p {
+    text-align: center;
+}
+footer p#credits {
+    font-style: italic;
+    font-weight: bold;
+}
+footer p#bg_credits {
+    font-size: .7em;
+}

@@ -1,0 +1,24 @@
+a.icon:hover {
+    background: none;
+    border-radius: 0;
+}
+a.icon span {
+    margin: 0 0 0 0;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    display: inline-block;
+}
+a.icon span:hover {
+    background-color: rgba(255, 255, 0, 0.8);
+}
+a.icon span img {
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+}
+a.icon span:hover img {
+    position: relative;
+    top: -16px;
+    margin-top: 0;
+}

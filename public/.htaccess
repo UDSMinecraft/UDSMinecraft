@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^udsmcbanner? images/graphics/banner/udsmc.png
+RewriteRule ^([\w]+)/([\w]+)$ index.php?page=$1&name=$2 [NC,L]
+RewriteRule ^([\w]+)/?$ index.php?page=$1 [NC,L]

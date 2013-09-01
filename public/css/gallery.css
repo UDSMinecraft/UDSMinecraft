@@ -1,0 +1,33 @@
+.gallery {
+    margin-bottom: -7px;
+}
+.gallery a:hover {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 0;
+}
+.gallery img {
+    margin: 2px;
+}
+.gallery input {
+    width: 12px;
+    height: 12px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    position: relative;
+}
+.gallery form {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    display: inline-block;
+    top: -166px;
+}
+.gallery .deny {
+    left: -30px;
+    background-image: url("/img/btn/cross.png");
+}
+.gallery .allow {
+    left: -47px;
+    background-image: url("/img/btn/tick.png");
+}

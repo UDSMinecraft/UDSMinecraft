@@ -1,0 +1,15 @@
+div.greenbox,
+div.redbox {
+    margin: 0 auto .7em auto;
+    padding: .4em;
+    background-color: #000;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+div.greenbox {
+    border: 1px solid #0f0;
+}
+div.redbox {
+    border: 1px solid #f00;
+}

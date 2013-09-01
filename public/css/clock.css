@@ -1,0 +1,11 @@
+pre.clock {
+    background-color: rgba(200, 200, 0, 0.9);
+    display: inline-block;
+    margin: .4em;
+    padding: .2em .7em;
+    border: 3px outset #C8C800;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #330;
+    text-shadow: 1px 1px 0px #4f4911;
+}

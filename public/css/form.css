@@ -1,0 +1,83 @@
+form {
+    padding: 15px;
+    background-color: rgba(44, 44, 44, 0.4);
+    border: #444444 3px outset;
+    margin: auto;
+    width: 400px;
+}
+form label {
+    width: 100%;
+    text-align: right;
+    clear: both;
+    display: inline-block;
+}
+form [type=text],
+form [type=password],
+form select {
+    margin-left: 5px;
+    float: right;
+    width: 30%;
+    margin-right: 20%;
+}
+form [type=file] {
+    float: right;
+    width: 50%;
+    margin-left: 5px;
+    padding-right: 4px;
+}
+form [type=checkbox] {
+    float: right;
+    margin-left: 5px;
+    margin-right: 191px;
+}
+form textarea {
+    vertical-align: top;
+    margin-left: 5px;
+    width: 50%;
+}
+form [type=submit] {
+    border: #eee486 2px outset;
+    background-color: #eee486;
+}
+form [type=submit]:hover {
+    border: #eeeac7 2px outset;
+    background-color: #eeeac7;
+}
+form [type=submit]:active {
+    border: 2px inset;
+}
+form label.error {
+    color: #DB2020;
+}
+form.strip {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin: 0;
+    width: auto;
+}
+form.strip [type=submit] {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+form.strip [type=submit].link {
+    margin: 14px 0;
+    text-decoration: none;
+    color: #CCCC55;
+    padding: 1px;
+}
+form.strip [type=submit].link:hover {
+    background: rgba(170, 170, 50, 0.8);
+    border-radius: 3px;
+    color: #000000;
+    cursor: pointer;
+}
+form.strip [type=submit].clicky {
+    color: #F0FFFF;
+    font-size: 17px;
+    font-weight: bold;
+}
+form.strip [type=submit].clicky:hover {
+    background-color: #ab1c1c;
+    border-radius: 5px;
+}
